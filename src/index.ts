@@ -4,7 +4,7 @@ import listr from 'listr';
 
 const uriRegex = /^mongodb:\/\/([^:]+):([^@]+)@([^:]+):(\d+)\/(.*)$/m;
 const argv = yargs
-  .command('$0 <app>', 'Deploy am Origami app on Heroku')
+  .command('$0 <app>', 'Deploy an Origami app on Heroku')
   .option('skipSetup', {
     alias: 's',
     describe: 'Skip creation of the app',

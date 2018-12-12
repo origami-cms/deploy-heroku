@@ -7,7 +7,7 @@ A small CLI utility that deploys a Origami app to Heroku
 ```
 deploy-heroku <app>
 
-Deploy am Origami app on Heroku
+Deploy an Origami app on Heroku
 
 Options:
   --help           Show help                    [boolean]
