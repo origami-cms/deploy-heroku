@@ -45,7 +45,12 @@ const argv = yargs
             `ORIGAMI_STORE_${key.toUpperCase()}=${value}`
           );
 
-          await execa('heroku', ['config:set', ...setConfig, ...appFlag]);
+          await execa('heroku', [
+            'config:set',
+            ...setConfig,
+            'ORIGAMI_STORE_TYPE=mongodb',
+            ...appFlag
+          ]);
         }
       });
     }
