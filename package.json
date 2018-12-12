@@ -1,6 +1,6 @@
 {
   "name": "@origami/deploy-heroku",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small CLI utility for deploying Origami apps to Heroku",
   "main": "build/index.js",
   "repository": "https://github.com/origami-cms/deploy-heroku",
